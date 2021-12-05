@@ -16,6 +16,9 @@ body{
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: #c6e4e6;
+}
 main{
     background-color: #bae0e1;
 }
