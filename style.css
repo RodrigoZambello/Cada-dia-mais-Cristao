@@ -35,6 +35,14 @@ main{
     float: left;
 }
 
+.titulo{
+    position: absolute;
+    text-align: center;
+    top: 265px;
+    line-height: 1094px;
+    right: 564px;   
+}
+
 /*For mobile phones*/
 [class*="col-"]{
     width: 100%;
