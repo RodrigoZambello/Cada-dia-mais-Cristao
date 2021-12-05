@@ -73,3 +73,7 @@ main{
     .col-12{ width: 100%;}
 }
 
+.insta{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+}
+
