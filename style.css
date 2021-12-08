@@ -5,8 +5,6 @@
 }*/
 
 
-
-
 *{
     box-sizing: border-box;
 }
@@ -20,24 +18,36 @@ main{
 .header {
     background-color: #10989c;
     padding: 15px;
+    width: 100%;
+}
+.header::after{
+    content: '';
 }
 
-#qs{
+#qsa{
     background-color: #9fe3e6;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    width: 10%;
 }
-#qs:hover{
+#qsa:hover{
     background-color: #53d8df;
 }
-#ed{
-    background-color: #9fe3e6; 
+#eda{
+    background-color: #9fe3e6;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10%; 
+    display: inline-block;
 }
-#ed:hover{
+#eda:hover{
     background-color: #53d8df;
 }
 
 #qsa{
-    text-decoration: none;
-    color: black; 
+    --text-decoration: none;
+    --color: black; 
 }
 
 #eda{
