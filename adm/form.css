@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: #c9f3f6;
+}
+.principal{
+    position: relative;
+    margin: 0% 25% 50% 25%;
+    padding: 5% 5% 30% 5%;
+    background-color: #8beff6;
+    text-align: center;
+    width: 50%;
+}
+
+.label{
+    padding: 5%;
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 8%;
+}
+
+#usuario{
+    margin: 5%;
+}
+
+#ent{
+    margin: 5%;
+    color: black;
+    background-color: #c6e4e6;
+}
+
+#ent:hover{
+    background-color: #10989c;
+}

@@ -108,5 +108,18 @@ main{
 }
 
 #instagram{
+    color: white;
     text-decoration: none;
+}
+
+.footer{
+    background-color: black;
+}
+
+.adm{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 70%; 
+    
 }
