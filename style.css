@@ -8,8 +8,13 @@
 *{
     box-sizing: border-box;
 }
+html, body{
+    height: 100%;
+}
 body{
     background-color: #c6e4e6;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -18,6 +23,7 @@ body{
 }
 
 main{
+    flex: 1 0 auto;
     background-color: #bae0e1;
 }
 
@@ -113,6 +119,7 @@ main{
 }
 
 .footer{
+    flex-shrink: 0;
     background-color: black;
 }
 

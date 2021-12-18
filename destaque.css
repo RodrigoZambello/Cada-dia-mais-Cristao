@@ -1,5 +1,11 @@
-body{
+html, body{
     background-color: #c6e4e6;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -50,6 +56,7 @@ header{
 }
 
 main{
+    flex: 1 0 auto;
     background-color: #bae0e1;
 }
 
@@ -71,6 +78,7 @@ main{
 }
 
 .footer{
+    flex-shrink: 0;
     margin: 1% 0 0 0; 
     background-color: black;
 }
