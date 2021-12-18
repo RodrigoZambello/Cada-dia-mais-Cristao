@@ -65,3 +65,12 @@ main{
     height: 100%;
     border: none;
 }
+#instagram{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    margin: 1% 0 0 0; 
+    background-color: black;
+}
