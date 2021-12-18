@@ -7,6 +7,16 @@ header{
     padding: 15px;
 }
 
+.titulo{
+    text-align: center;
+    font-family: 'Luxurious Script', cursive;
+}
+
+.nome{
+    font-family: 'Luxurious Script', cursive;
+    text-align: center;
+}
+
 #pi  {
     background-color: hsl(183, 59%, 76%);
     position: relative;
