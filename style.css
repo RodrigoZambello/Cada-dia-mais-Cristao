@@ -23,37 +23,35 @@ body{
 }
 
 main{
+    background-image: url('image/fundo400.png');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: center;
     flex: 1 0 auto;
     background-color: #bae0e1;
-}
-
-#qs{
-    background-color: #9fe3e6;
-    position: relative;
-    left: 8%;
-}
-
-#qs:hover{
-    background-color: #53d8df;
-}
-#ed{
-    background-color: #9fe3e6;
-    position: relative;
-    left: 8%;
-}
-#ed:hover{
-    background-color: #53d8df;
 }
 
 #qsa{
     text-decoration: none;
     color: black;
+    position: relative;
+    left: 8%;
+}
+
+#qsa:hover{
+    color: red;
 }
 
 #eda{
     text-decoration: none;
     color: black;
-}*/
+    position: relative;
+    left: 10%;
+}
+
+#eda:hover{
+    color: red;
+}
 
 .princ{
     border: 1px solid black;
@@ -62,10 +60,18 @@ main{
     float: left;
 }
 
-.titulo{
+
+
+.title2{
+    position: relative;
     text-align: center;
     font-family: 'Luxurious Script', cursive;
-}
+    color: #115852;
+    font-size: 60px;
+    top: 48%;
+}    
+
+
 .conteudo{
     text-align: center;
 }
@@ -73,6 +79,11 @@ main{
 /*For mobile phones*/
 [class*="col-"]{
     width: 100%;
+}
+
+.col-12{
+    position: absolute;
+    bottom: 8%;
 }
 
 @media only screen and (max-width: 600px){

@@ -15,49 +15,43 @@ header{
 
 .titulo{
     text-align: center;
-    font-family: 'Luxurious Script', cursive;
 }
 
 .nome{
     font-family: 'Luxurious Script', cursive;
     text-align: center;
-}
-
-#pi  {
-    background-color: hsl(183, 59%, 76%);
-    position: relative;
-    border: solid 1px black;
-    left: 8%;
-}
-
-#pi:hover{
-    background-color: #53d8df;
-}
-
-#qs  {
-    background-color: hsl(183, 59%, 76%);
-    position: relative;
-    border: solid 1px black;
-    left: 8%;
-}
-
-#qs:hover{
-    background-color: #53d8df;
+    
 }
 
 #qss{
+    position: relative;
     text-decoration: none;
     color: black;
+    left: 12%;
+}
+
+#qss:hover{
+    color: red;
 }
 
 #pis{
+    position: relative;
     text-decoration: none;
     color: black;
+    left: 8%;
+}
+#pis:hover{
+    color: red;
 }
 
 main{
     flex: 1 0 auto;
     background-color: #bae0e1;
+}
+
+.history{
+    text-align: center;
+    color: #115852;
 }
 
 .embed{
@@ -72,6 +66,12 @@ main{
     height: 100%;
     border: none;
 }
+
+.youtube a{
+    text-decoration: none;
+    
+}
+
 #instagram{
     color: white;
     text-decoration: none;
